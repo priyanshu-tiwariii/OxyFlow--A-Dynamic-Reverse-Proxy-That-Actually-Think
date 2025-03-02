@@ -55,15 +55,13 @@ With **OxyFlow**, I can now **spin up, scale, and kill containers** without worr
 
 ### **Step 1: Clone the Repository**  
 ```sh
-git clone https://github.com/yourusername/OxyFlow.git
+git clone https://github.com/impriyanshu29/oxyflow.git
 cd OxyFlow
 ```
 
-### **Step 2: Set Up Environment Variables**  
-Create a `.env` file and configure:  
+### **Step 2: Intall all dependencies*   
 ```ini
-PORT=8080
-REDIS_URL=redis://localhost:6379
+npm install
 ```
 
 ### **Step 3: Run It with Docker**  
@@ -72,11 +70,11 @@ docker-compose up --build
 ```
 
 ### **Step 4: Example – Register a New Service**  
-Let’s say we have a containerized service running on **port 5000**. Normally, you’d have to update a proxy config, right?  
+Let’s say we have a containerized service. Normally, you’d have to update a proxy config, right?  
 
 Not with OxyFlow! Just register the service like this:  
 ```sh
-curl -X POST http://localhost:8080/register -H "Content-Type: application/json" -d '{"name": "my-service", "url": "http://localhost:5000"}'
+docker run  --rm --network app-network --name  ptn nginx
 ```
 💨 **Done! OxyFlow caches it, routes traffic automatically, and you don’t have to restart anything!**  
 
@@ -84,9 +82,9 @@ curl -X POST http://localhost:8080/register -H "Content-Type: application/json" 
 
 ## **📞 Need Help? Let’s Connect!**  
 
-📧 **Email:** your.email@example.com  
-🐦 **Twitter:** [@yourhandle](https://twitter.com/yourhandle)  
-💼 **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)  
+📧 **Email:** iampriyanshu2901@hotmail.com  
+🐦 **X:** [@iampriyanshu29](https://x.com/iampriyanshu29)  
+💼 **LinkedIn:** [Priyanshu Tiwari](https://www.linkedin.com/in/priyanshu-tiwarii/)  
 
 ---
 
