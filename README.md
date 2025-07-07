@@ -1,4 +1,4 @@
-# **OxyFlow – A Dynamic Reverse Proxy That Actually Think !!**
+# **OxyFlow – A Dynamic Reverse Proxy **
 
 
 ## Why I Built OxyFlow
